@@ -1,1 +1,20 @@
 /* MAIN */
+
+.container-main {
+    height: 100vh;
+    background-image: url(../img/prueba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: soft-light;
+
+
+    .title {
+        color: $color-text;
+        text-align: center;
+        padding: 2rem 0;
+    }
+}
+
+
