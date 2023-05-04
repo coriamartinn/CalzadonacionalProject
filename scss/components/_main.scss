@@ -1,20 +1,59 @@
 /* MAIN */
 
 .container-main {
-    height: 100vh;
-    background-image: url(../img/prueba.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, .5);
-    background-blend-mode: soft-light;
+  background-image: url(../img/botas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: soft-light;
 
-
-    .title {
-        color: $color-text;
-        text-align: center;
-        padding: 2rem 0;
-    }
+  .grid-card {
+    padding: 2rem 0;
+    margin: 1rem;
+    transition: all 5s;
+    -webkit-transition: all 5s;
+    -moz-transition: all 5s;
+    -ms-transition: all 5s;
+    -o-transition: all 5s;
 }
 
+  .card-uno,
+  .card-dos,
+  .card-tres,
+  .card-cuatro {
+    @include cards;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    padding: 2rem 1rem;
+  }
 
+  .title {
+    color: $color-tmain;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .txt {
+    color: $color-tmain;
+  }
+}
+
+.card-uno:hover,
+.card-tres:hover {
+  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+}
+.card-dos:hover,
+.card-cuatro:hover {
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+}

@@ -9,7 +9,7 @@ button.addEventListener('click',()=>{
 // texto main
 
 var typed = new Typed('.typed', {
-    strings: ['calzado nacional', 'El calzado que vos <br>necesitas...'],
+    strings: ['calzado nacional', 'si la onda no <br>esta aca', 'la onda donde esta?'],
     //stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
 	typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
 	startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,

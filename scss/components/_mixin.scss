@@ -1,0 +1,18 @@
+// Estilos cards main (index)
+
+@mixin cards {
+    background-image: url(../img/botas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: soft-light;
+    height: 300px;
+    margin: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
