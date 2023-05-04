@@ -124,8 +124,7 @@ li {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: soft-light; }
   .container-main .grid-card {
-    padding: 2rem 0;
-    margin: 1rem; }
+    padding: 2rem 0; }
   .container-main .card-uno,
   .container-main .card-dos,
   .container-main .card-tres,
@@ -176,8 +175,6 @@ li {
 /*SECOND*/
 .container-second {
   display: grid;
-  align-items: center;
-  justify-content: space-around;
   padding: 2rem;
   background-image: url(../img/botas.jpg);
   background-position: center;
@@ -185,16 +182,21 @@ li {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: soft-light; }
+  .container-second .content-right {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0; }
   .container-second .title-second {
     color: #cecece;
     font-size: 22px;
     text-transform: uppercase;
     margin: 2rem 0;
     text-align: center; }
-  .container-second .text-second {
+  .container-second .icon {
     color: #cecece;
-    font-size: 16px;
-    text-align: center; }
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem 0; }
   .container-second .btn {
     margin: 1rem 0;
     color: #000000;
