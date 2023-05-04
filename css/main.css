@@ -125,12 +125,7 @@ li {
   background-blend-mode: soft-light; }
   .container-main .grid-card {
     padding: 2rem 0;
-    margin: 1rem;
-    transition: all 5s;
-    -webkit-transition: all 5s;
-    -moz-transition: all 5s;
-    -ms-transition: all 5s;
-    -o-transition: all 5s; }
+    margin: 1rem; }
   .container-main .card-uno,
   .container-main .card-dos,
   .container-main .card-tres,
